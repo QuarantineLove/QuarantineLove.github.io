@@ -9,15 +9,18 @@ EARTHY COLORS
 
 
 /* web fonts */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');*/
-/*@font-face {
-	font-family: Courgette;
+@font-face {
+	font-family: Arima Madurai;
 	src:
-		url("courgette/Courgette-Regular.ttf");
-}*/
+		url("Arima_Madurai/ArimaMadurai-Regular.ttf");
+	font-family: Special Elite;
+	src:
+		url("Special_Elite/SpecialElite-Regular.ttf");
+}
 
 
 /* general settings */
@@ -40,13 +43,16 @@ body {
 h1, h2 {
 	margin: 0;
 	text-align: center;
-	font-family: "Quicksand", sans-serif;
+	font-family: "Special Elite", cursive;
 	color: #382c21;
 }
 h1 {
+	font-family: "Handlee", cursive;
 	padding-top: 20%;
 	padding-bottom: 10%;
-	font-size: 3.5em;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 3.2em;
 	line-height: 100%;
 }
 h1#sectionText {
@@ -76,7 +82,7 @@ p {
 	padding-right: 5%;
 	padding-left: 5%;
 	text-align: center;
-	font-family: "Courgette", sans-serif;
+	font-family: "Special Elite", cursive;
 	color: #4f3e2e; /* dark brown */
 }
 
@@ -112,7 +118,9 @@ a.start:hover, a.start:active {
 }
 
 .navigate {
-	padding: 15%;
+	padding-top: 15%;
+	padding-right: 10%;
+	padding-left: 10%;
 	padding-bottom: 100%; /* eliminate white gap at the bottom of the screen*/
 	text-align: center;
 	display: flex;
@@ -121,9 +129,10 @@ a.start:hover, a.start:active {
 
 button {
 	padding: 5%;
-	padding-right: 9%;
-	padding-left: 9%;
+	padding-right: 8%;
+	padding-left: 8%;
 	cursor: pointer;
+	font-family: "Special Elite", cursive;
 	font-size: 1.5em;
 	border: 2px solid #d17173; /* red */
 	border-radius: 20px;

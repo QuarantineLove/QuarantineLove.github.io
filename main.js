@@ -79,6 +79,7 @@ function next() {
 		questionNumber.innerText = "...";
 		questionText.style.fontSize = "1.3em";
 		questionText.style.lineHeight = "120%";
+		questionText.style.marginTop = "2%";
 		questionText.innerText = summary1;
 
 		nextButton.innerText = "next section";

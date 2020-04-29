@@ -1,6 +1,6 @@
 /*
 	The only differences between this file and main.js are the
-	question array content, summary content, and links to next/
+	question array content, summary content, and links to next &
 	previous section title pages
 */
 

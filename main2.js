@@ -11,6 +11,7 @@ var questionNumber = document.getElementById("questionNumber");
 var questionText = document.getElementById("questionText");
 var nextButton = document.getElementById("next");
 var backButton = document.getElementById("previous");
+var navigation = document.getElementsByClassName("navigate");
 
 nextButton.addEventListener("click", next);
 backButton.addEventListener("click", previous);
@@ -84,9 +85,10 @@ function next() {
 		questionNumber.innerText = "...";
 		questionText.style.fontSize = "1.3em";
 		questionText.style.lineHeight = "120%";
-		questionText.style.marginTop = "2%";
+		questionText.style.marginTop = "0%";
 		questionText.innerText = summary2;
 
+		navigation[0].style.paddingTop = "10%";
 		nextButton.innerText = "next section";
 		currentPage++;
 	}

@@ -11,6 +11,7 @@ var questionNumber = document.getElementById("questionNumber");
 var questionText = document.getElementById("questionText");
 var nextButton = document.getElementById("next");
 var backButton = document.getElementById("previous");
+var navigation = document.getElementsByClassName("navigate");
 
 nextButton.addEventListener("click", next);
 backButton.addEventListener("click", previous);
@@ -87,6 +88,7 @@ function next() {
 		questionText.style.marginTop = "2%";
 		questionText.innerText = summary3;
 
+		navigation[0].style.paddingTop = "10%";
 		nextButton.innerText = "finish";
 		currentPage++;
 	}

@@ -18,10 +18,10 @@ backButton.addEventListener("click", previous);
 
 //text for each question in an array
 var section2 =	[	"index 0",
-					"What did you want to be when you grew up as a child? When/how has that changed?",
+					"How was conflict typically dealt with in your family growing up?",
 					"What family member were you closest to growing up? Why?",
-					"What was your parents' relationship like growing up?",
-					"What’s your favorite family tradition?",
+					"What was your parents' relationship like growing up? Do you see similar patterns in your own relationships?",
+					"What was the most difficult part of your childhood?",
 					"Who is your “safe base” in times of crisis?",
 					"Do you find yourself most at peace when you are alone or with others? Describe one of these moments.",
 					"What are your feelings around commitment?",
